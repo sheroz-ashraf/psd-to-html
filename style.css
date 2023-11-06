@@ -1,0 +1,164 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header.header-section {
+        position: absolute;
+        padding-bottom: 100px;
+        width: 100%;
+    }
+
+    header.header-section .nav-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    header.header-section .nav-wrapper .nav-list ul li {
+        list-style: none;
+        margin-right: 20px;
+        color: white;
+        transition: all .3s ease;
+    }
+
+    header.header-section .nav-wrapper .nav-list ul li:hover {
+        color: red;
+    }
+
+    header.header-section .nav-wrapper .icons i {
+        font-size: 1rem;
+        color: white;
+        margin-right: 10px;
+        border: 1px solid white;
+        padding: 3px;
+        transition: all .3s ease;
+    }
+
+    header.header-section .nav-wrapper .icons i:hover {
+        border: none;
+        color: red;
+    }
+
+    section.hero-section {
+        max-width: 1700px;
+        height: 600px;
+        background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../images/90a441_4b820a3e18a14c0b8b0f758cbd3b22e0~mv2.jpg);
+        background-size: cover;
+        padding: 20px;
+        color: white;
+    }
+
+    section.hero-section .hero-wrapper {
+        width: 600px;
+        height: 900px;
+        margin-top: 2rem;
+    }
+
+    section.hero-section .hero-wrapper h1 {
+        color: white;
+        margin-top: 200px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 60px;
+    }
+
+    section.hero-section .hero-wrapper .btns button {
+        border: none;
+        background-color: red;
+        color: white;
+        padding: 10px 25px;
+        transition: all 0.3s ease;
+    }
+
+    section.hero-section .hero-wrapper .btns button:hover {
+        border: 1px solid red;
+        background-color: white;
+        color: red;
+    }
+    section.icons-section .icon-wrapper img{
+        width:100%;
+    }
+
+    section.about-us-section {
+        background: white;
+        max-width: 1700px;
+        height: 600px;
+        padding: 30px;
+    }
+
+    section.about-us-section .about-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    section.about-us-section .about-wrapper .img-div img{
+        height:500px;
+    }
+    section.about-us-section .about-wrapper .content-div{
+        width:500px;
+        margin-right:20px;
+    }
+    section.about-us-section .about-wrapper .content-div h2 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 60px;
+        font-weight: bolder;
+        margin-right;
+    }
+
+    section.about-us-section .about-wrapper .content-div p {
+        font-size: 22px;
+        font-weight: 600;
+        color: black;
+    }
+
+    section.about-us-section .about-wrapper .content-div .about-btn button {
+        border: none;
+        background-color: red;
+        color: white;
+        padding: 10px 25px;
+        transition: all 0.3s ease;
+    }
+
+    section.about-us-section .about-wrapper .content-div .about-btn button:hover {
+        border: 1px solid red;
+        background-color: white;
+        color: red;
+    }
+
+    section.red-section {
+        max-width: 1700px;
+        height: 400px;
+        background-color: red;
+    }
+    section.red-section .red-wrapper{
+        display: flex;
+        align-items: center;
+       
+    }
+    section.red-section .red-wrapper .div-1 {
+        width: 600px;
+        color:white;
+        margin-top:50px;
+    }
+    section.red-section .red-wrapper .div-2{ 
+        width:550px;
+        margin-top:50px;
+
+    }
+    section.red-section .red-wrapper .div-2 .box h2{
+        color:white;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+    section.red-section .red-wrapper .div-2 .box h6{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        color: black;
+        text-align: center;
+    }
+    section.red-section .red-wrapper .div-2 .box p{
+        text-align: center;
+    }
